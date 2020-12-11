@@ -8,9 +8,6 @@ Reverse [http.STATUS_CODES](https://nodejs.org/api/http.html#http_http_status_co
 
 ## Usage
 
-The source code is the documentation.
-
-
 ```js
 import {
     httpCodeFromText,
@@ -19,7 +16,8 @@ import {
 
 
 httpCodeFromText[`Ok`] === 200
-textFromHttpCode[200] === `Ok` // just an alias
+
+textFromHttpCode[200] === `Ok` // an alias for http.STATUS_CODES
 http.STATUS_CODES[200] === `Ok` 
 ```
 
