@@ -3,7 +3,7 @@ export {
     textFromHttpCode,
 };
 
-import {STATUS_CODES} from "http";
+import {STATUS_CODES} from "node:http";
 
 
 const textFromHttpCode = STATUS_CODES;
